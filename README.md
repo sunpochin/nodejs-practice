@@ -1,2 +1,2 @@
 # nodejs-practice
-nodejs practice for a photo uploading recipe site
+nodejs practice some course challenges.

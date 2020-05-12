@@ -10,16 +10,15 @@ app.set('view engine', 'hbs')
 app.use(express.static(publicDirPath))
 
 app.get('', (req, res) => {
-    res.render('index')
-    // res.render('index', {
-    //     title: 'Weather',
-    //     name: 'Sun Pochin',
-    // })
+    res.render('index', {
+        title: 'Weather',
+        name: 'Sun Pochin',
+    })
 })
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'Weather',
+        title: 'About!',
         name: 'Sun Pochin',
     })
 })

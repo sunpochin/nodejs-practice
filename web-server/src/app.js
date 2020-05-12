@@ -23,6 +23,13 @@ app.get('/about', (req, res) => {
     })
 })
 
+app.get('/help', (req, res) => {
+    res.render('help', {
+        title: 'Help!!!',
+        name: 'Sun Pochin',
+    })
+})
+
 
 // app.get('', (req, res) => {
 //     res.send('Hello Express!')

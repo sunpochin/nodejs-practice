@@ -1,3 +1,1 @@
-
-console.log('client side java script')
-
+console.log('Client side javascript file is loaded!')

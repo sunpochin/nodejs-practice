@@ -1,4 +1,12 @@
-body {
+h1 {
+    color: grey;
+}
+
+img {
+    width: 250px;
+}
+
+/* body {
     color: #333333;
     font-family: arial;
     max-width: 650px;
@@ -27,6 +35,7 @@ header {
 }
 
 h1 {
+    color: grey;
     font-size: 64px;
     margin-bottom: 16px;
 }
@@ -56,4 +65,4 @@ button {
 }
 
 
-
+ */
